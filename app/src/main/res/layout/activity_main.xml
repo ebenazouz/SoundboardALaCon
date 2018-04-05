@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.erwan.soundboardalacon.MainActivity">
+
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.GridLayout>
+
+        <Button
+            android:id="@+id/buttonPayeeee"
+            android:layout_width="166dp"
+            android:layout_height="65dp"
+            android:text="@string/payeeee"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="169dp" />
+
+        <Button
+            android:id="@+id/buttonPaye"
+            android:layout_width="166dp"
+            android:layout_height="65dp"
+            android:text="@string/paye"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="92dp" />
+
+        <Button
+            android:id="@+id/buttonDésespoir"
+            android:layout_width="166dp"
+            android:layout_height="65dp"
+            android:text="@string/despair"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/buttonGrandMere"
+            android:layout_width="166dp"
+            android:layout_height="65dp"
+            android:text="@string/grand_mere"
+            tools:layout_editor_absoluteX="202dp"
+            tools:layout_editor_absoluteY="92dp" />
+
+        <Button
+            android:id="@+id/buttonZboub"
+            android:layout_width="166dp"
+            android:layout_height="65dp"
+            android:text="@string/zboub"
+            tools:layout_editor_absoluteX="202dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+
+</android.support.constraint.ConstraintLayout>
